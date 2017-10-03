@@ -69,6 +69,9 @@
                                 <state key="normal" title="17">
                                     <color key="titleColor" red="0.24355734788734099" green="0.82444138601036265" blue="0.28201890348642544" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="label2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HE5-G1-pKh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Khs-AH-GJ6">
                                 <rect key="frame" x="490" y="515" width="87" height="60"/>
@@ -81,7 +84,17 @@
                                 <state key="normal" title="18">
                                     <color key="titleColor" red="0.21552248097162838" green="0.82442114637305697" blue="0.27835289794983253" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="label3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YFq-2R-QHC"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Incorrect" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3dZ-Fw-lUh">
+                                <rect key="frame" x="353" y="369" width="114" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <color key="textColor" red="1" green="0.19352408772278185" blue="0.046711513594897891" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.75846572150351199" green="1" blue="0.95677243675362356" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -97,6 +110,9 @@
                             <constraint firstItem="nS7-bO-GAM" firstAttribute="top" secondItem="53N-ZX-6LD" secondAttribute="bottom" constant="154" id="wQy-hI-Rxr"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="3dZ-Fw-lUh" id="bfO-xg-zvv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

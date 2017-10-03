@@ -12,14 +12,23 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+        label.text = ""
+        
+           }
+    @IBOutlet weak var label: UILabel!
 
 
 
     @IBAction func number(_ sender: Any) {
-        
-        print("Number button is pressed.")
+    label.text = "Incorrect"
+    }
+
+    @IBAction func label2(_ sender: Any) {
+        label.text = "Incorrect"
+    }
+
+    @IBAction func label3(_ sender: Any) {
+        label.text = "Correct!"
     }
 
 }
