@@ -19,9 +19,6 @@ class ViewController: UIViewController {
 
 
 
-    @IBAction func number(_ sender: Any) {
-    label.text = "Incorrect"
-    }
 
     @IBAction func label2(_ sender: Any) {
         label.text = "Incorrect"
@@ -31,4 +28,9 @@ class ViewController: UIViewController {
         label.text = "Correct!"
     }
 
+    @IBOutlet weak var buttoncheck: UILabel!
+    
+    @IBOutlet weak var buttonnext: UIButton!
 }
+
+

@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F2BFF8F1F8CFBC4006F0FAC /* MyPlayground_math.learn.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground_math.learn.playground; sourceTree = "<group>"; };
 		3F745AF71F793F3A00C5441B /* math.Learn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = math.Learn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F745AFA1F793F3A00C5441B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F745AFC1F793F3A00C5441B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +101,7 @@
 				3F745AFA1F793F3A00C5441B /* AppDelegate.swift */,
 				3F745AFC1F793F3A00C5441B /* ViewController.swift */,
 				3F745AFE1F793F3A00C5441B /* Main.storyboard */,
+				3F2BFF8F1F8CFBC4006F0FAC /* MyPlayground_math.learn.playground */,
 				3F745B011F793F3A00C5441B /* Assets.xcassets */,
 				3F745B031F793F3A00C5441B /* LaunchScreen.storyboard */,
 				3F745B061F793F3A00C5441B /* Info.plist */,
@@ -505,6 +507,7 @@
 				3F745B211F793F3A00C5441B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F745B221F793F3A00C5441B /* Build configuration list for PBXNativeTarget "math.LearnTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +516,7 @@
 				3F745B241F793F3A00C5441B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F745B251F793F3A00C5441B /* Build configuration list for PBXNativeTarget "math.LearnUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +525,7 @@
 				3F745B271F793F3A00C5441B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
