@@ -34,7 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3F2BFF8F1F8CFBC4006F0FAC /* MyPlayground_math.learn.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground_math.learn.playground; sourceTree = "<group>"; };
+		3F2BFF8F1F8CFBC4006F0FAC /* MyPlayground_math.learn.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground_math.learn.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3F745AF71F793F3A00C5441B /* math.Learn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = math.Learn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F745AFA1F793F3A00C5441B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F745AFC1F793F3A00C5441B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
