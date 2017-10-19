@@ -60,22 +60,6 @@
                                     <action selector="nextButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fQ1-86-M3X"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Khs-AH-GJ6">
-                                <rect key="frame" x="342" y="448" width="289" height="60"/>
-                                <color key="backgroundColor" red="0.26892788258978412" green="0.38412266323863054" blue="0.82442114637305697" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="IJI-9V-hVg"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="268" id="ril-ah-q08"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="u3b-nN-1c0"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                <state key="normal" title="Check my answer">
-                                    <color key="titleColor" red="0.82442114637305697" green="0.77501196231689107" blue="0.33995834581177897" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="checkAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8fx-QC-VWQ"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Incorrect" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3dZ-Fw-lUh">
                                 <rect key="frame" x="353" y="369" width="114" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -93,6 +77,22 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="33"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Khs-AH-GJ6">
+                                <rect key="frame" x="344" y="448" width="289" height="60"/>
+                                <color key="backgroundColor" red="0.26892788258978412" green="0.38412266323863054" blue="0.82442114637305697" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="IJI-9V-hVg"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="268" id="ril-ah-q08"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="u3b-nN-1c0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <state key="normal" title="Check my answer">
+                                    <color key="titleColor" red="0.82442114637305697" green="0.77501196231689107" blue="0.33995834581177897" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="checkAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8fx-QC-VWQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.053828646231160904" green="0.7422026084181258" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>

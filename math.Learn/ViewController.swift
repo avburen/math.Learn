@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         checkAnswer.isHidden = false
         nextButton.isHidden = true
         label.isHidden = true
-        //randomEquation()
+        randomEquation()
     }
 
 
@@ -38,8 +38,17 @@ class ViewController: UIViewController {
         //TODO #2 - Use an if/then/else statement to check if the answer is correct. Get the value of the text input with textInput.text. Then show and hide the correct buttons.
         
         if Int(textInput.text!) == correctAnswer {
-        print ("Correct!")
+           print("Correct!")
+            label.text = "Correct!"
+            
         }
+        else {
+            print("Incorrect")
+            label.text = "Incorrect"
+        }
+        
+
+        
         label.isHidden = false
         equation.isHidden = true
         checkAnswer.isHidden = true
@@ -51,7 +60,8 @@ class ViewController: UIViewController {
         label.isHidden = true
         equation.isHidden = false
         checkAnswer.isHidden = false
-        nextButton.isHidden = true 
+        nextButton.isHidden = true
+        randomEquation()
         
     }
     
@@ -90,7 +100,7 @@ class ViewController: UIViewController {
             
         else if (op == 2) {
             correctAnswer = number1 * number2
-            equation.text = ("\(number1)*\(number2)")
+            equation.text = ("\(number1) x \(number2)")
         }
             
         else if (op == 2) {
