@@ -40,11 +40,13 @@ class ViewController: UIViewController {
         if Int(textInput.text!) == correctAnswer {
            print("Correct!")
             label.text = "Correct!"
+            label.textColor = UIColor.green
             
         }
         else {
             print("Incorrect")
             label.text = "Incorrect"
+            label.textColor = UIColor.red
         }
         
 
